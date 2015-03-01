@@ -7,6 +7,8 @@ An Electronic Power System in the PocketQube 60 form factor
 
 The PQ60 Electrical Power System board is a system board for pico-satellites that connects to the solar arrays, charges the internal battery and provides protected battery voltage and protected +3V3 regulated supplies.
 
+Uses @Pinski1's [PQ60-Template](https://github.com/pinski1/PQ60-Template) as the starting point for the design.
+
 ##Features
 * Integrated active solar array maximum power point tracking.
 * Battery charge management for Lithium Ion and Lithium Polymer batteries.
