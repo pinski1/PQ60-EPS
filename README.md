@@ -16,6 +16,13 @@ The PQ60 Electrical Power System board is a system board for pico-satellites tha
 * Kill switch connector to disable the satellite while in deployment tube.
 * Compatible with the [PQ60 standard](https://docs.google.com/file/d/0BzHBLJnbHLV0aFJSSUFTRXNOb3c).
 
+
+##To Do
+- [ ] Verify MPPT inductor footprint
+- [ ] Order PCBs
+- [ ] Generate, format and order parts list
+- [ ] Swap MAC8606 for LT4071?
+
 ##System
 
 <!-- Block diagram -->
@@ -49,11 +56,13 @@ To provide a regulated +3.3 Volts a switched mode power supply is used. This con
 
 <!-- image -->
 
-|Connector|Type|Use|
-|--|--|--|
-|X1,2,3,4|3 way JST SHT|Solar Cells|
-|X5|3 way JST SHT|Battery|
-|X6|2 way JST SHT|Kill Switch(s)|
+|Connector|     Type      |     Use        |
+|---------|---------------|----------------|
+|X1,2,3,4 | 3 way JST SHT | Solar Cells    |
+|X5       | 3 way JST SHT | Battery        |
+|X6       | 2 way JST SHT | Kill Switch(s) |
+|X1Top    | 60 way FX6C   | PQ60 interface |
+|X1Bot    | 60 way FX6C   | PQ60 interface |
 
 ##Licensing
 The hardware is released under [Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/).
